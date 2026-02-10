@@ -274,3 +274,12 @@ body {
     }
 
 }
+.photo-card img {
+  width: 100%;
+  max-width: 160px;   /* 👈 controls size */
+  display: block;
+  margin: 12px auto;  /* 👈 centers it */
+  border-radius: 14px;
+}
+
+
