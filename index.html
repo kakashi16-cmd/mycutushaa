@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Be My Valentine?</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@400;600;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+</head>
+
+<body>
+    <div class="container">
+
+        <!-- Gallery Section -->
+        <div class="glass-panel section-panel">
+            <h2 class="section-title">my hot bengali baddie  📸</h2>
+            <div class="gallery">
+                <div class="photo-card">
+                    <img src="images/hot.jpg"                        alt="Memory 1">
+                    <p class="caption">my silly shaa❤️</p>
+                </div>
+                <div class="photo-card">
+                    <img src="images/baby.jpg"
+                        alt="Memory 2">
+                    <p class="caption">hottie 🤪</p>
+                </div>
+                <div class="photo-card">
+                    <img src="images/shaa.jpg"                        alt="Memory 3">
+                    <p class="caption">my world hehe 🌍</p>
+                </div>
+                <!-- Add your photos here! -->
+            </div>
+        </div>
+
+        <!-- Messages Section -->
+        <div class="glass-panel section-panel">
+            <h2 class="section-title">Why I Love sharadiaa💌</h2>
+            <ul class="love-list">
+                <li>You have the cutest smile in the world. 😊</li>
+                <li>You make even the boring days fun. ✨</li>
+                <li>Your laugh is my favorite sound. 🎶</li>
+                <li>You get my weird jokes. 🍜</li>
+                <!-- Add more reasons here! -->
+            </ul>
+        </div>
+
+        <div class="glass-panel main-panel">
+            <h1 class="title">Will you be my Valentine?</h1>
+            <div class="photo-card">
+  <img src="./images/aj.jpg" style="width:300px;">
+</div>
+            </div>
+
+            <div class="buttons">
+                <button id="yesBtn" class="btn yes-btn">Yes</button>
+                <button id="noBtn" class="btn no-btn">No</button>
+            </div>
+
+            <div class="countdown">
+                <p>Time until Valentine's Day:</p>
+                <div id="timer">Loading...</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Celebration Overlay -->
+    <div id="celebration" class="hidden">
+        <div class="glass-panel celebration-content">
+            <h1>Yay! I love you! ❤️</h1>
+            <div class="celebration-container">
+  <img src="images/y.jpg" alt="Us" class="celebration-photo">
+  <p class="celebration-text">
+    I hope we meet veryy soooon hehe 💖
+  </p>
+</div>
+
+    <audio id="bgMusic" loop>
+        <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    <button id="musicBtn" class="music-btn"><i class="fas fa-music"></i></button>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
