@@ -210,6 +210,15 @@ body {
     opacity: 1;
     pointer-events: all;
 }
+/* Celebration image size control */
+#celebration img {
+  width: 100%;
+  max-width: 180px;
+  border-radius: 16px;
+  display: block;
+  margin: 0 auto;
+}
+
 
 .hidden {
     display: none;
@@ -263,4 +272,5 @@ body {
         padding: 10px 20px;
         font-size: 1rem;
     }
+
 }
