@@ -281,5 +281,16 @@ body {
   margin: 12px auto;  /* 👈 centers it */
   border-radius: 14px;
 }
+/* Resize celebration image (ay.jpg) */
+.celebration-photo {
+  width: 100%;
+  max-width: 160px;   /* 👈 change this number */
+  height: auto;
+  display: block;
+  margin: 12px auto;
+  border-radius: 16px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.25);
+}
+
 
 
